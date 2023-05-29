@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="task3.css">
+</head>
+<body>
+    <div class="class1">
+    <div class="heading">Temperature Converter </div>
+    <form id="form1" >
+    <div class="input"><label>Enter Temperature</label><input type="number" placeholder="Temperature" id="input-el" class="input1"></div>
+    <p id="error"></p>
+    <div class="choose1"><input type="radio" name="choose" id="fahren">Fahrenheit</div>
+    <div class="choose2"><input type="radio" name="choose" id="celsius">Celsius</div>
+</form>
+    <div ><button class="convert-btn" onClick="convert()" >convert</button></div>
+    <div id="output-el"></div>
+    <div id="display"></div>
+    <input type="button" id="reset-btn" value="clear" onClick="Reset()" >
+</div>
+    <script src="task3.js"></script>
+</body>
+</html>
