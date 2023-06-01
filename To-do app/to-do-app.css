@@ -1,0 +1,79 @@
+body{
+    background-image:url("https://cdn.wallpaperhub.app/cloudcache/7/c/4/d/3/0/7c4d3040631ac5f3f3b6bdae70a7b63a7d2c9f29.jpg");
+    background-repeat:norepeat;
+    background-size: 100%;
+}
+.quote{
+    color:white;
+    font-size:30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:60px;
+}
+.quote cite{
+    float:right;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    color:black;
+    margin-top:80px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#class1{
+    background-color:rgba(255, 255, 255, 0.146);
+    width:500px;
+    height:400px;
+    margin:auto;
+    margin-top:30px;
+    border: none;
+    border-radius:8px;
+}
+#class1 input{
+    margin-top:10px;
+    margin-left:10px;
+    width:400px;
+    height:28px;
+    border: none;
+    border-radius:5px;
+    font-size:25px;
+}
+#class1 button{
+    margin-top:10px;
+    margin-left:5px;
+    width:50px;
+    height:28px;
+    border: none;
+    border-radius: 5px;
+    background-color: chartreuse;
+}
+#task{
+    margin-top:9px;
+    margin-left:10px;
+    width:400px;
+    border: none;
+    border-radius:5px;
+}
+.task1{
+    margin-top:10px;
+    cursor: pointer;
+    height: 28px;
+    display:flex;
+    border: none;
+    border-radius:5px;
+    align-items:center;
+    justify-content:space-between;
+    background-color:white;
+}
+.task1 span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:25px;
+}
+.task1 button{
+    margin-top:0px;
+    cursor: pointer;
+    border: none;
+    border-radius:5px;
+    width:50px;
+    height:28px;
+    background-color:chartreuse;
+}
