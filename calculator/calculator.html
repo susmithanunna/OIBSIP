@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+    <p class="heading">Calculator</p>
+    <div class="class1">
+        <form class="form">
+            <div class="output1">
+                <input type="text" name="output1">
+            </div>
+            <div class="form1">
+            <input type="button" value="AC" id="AC" onclick="output1.value=''">
+            <input type="button" value="C" id="C" onclick="output1.value=output1.value.toString().slice(0,-1)">
+            <input type="button" value="." id="." onclick="output1.value+='.'">
+            <input type="button" value="/" id="/" onclick="output1.value+='/' ">
+            <input type="button" value="7" id="7" onclick="output1.value+='7' ">
+            <input type="button" value="8" id="8" onclick="output1.value+='8'">
+            <input type="button" value="9" id="9" onclick="output1.value+='9'">
+            <input type="button" value="*" id="*" onclick="output1.value+='*'">
+            <input type="button" value="4" id="4" onclick="output1.value+='4'">
+            <input type="button" value="5" id="5" onclick="output1.value+='5'">
+            <input type="button" value="6" id="6" onclick="output1.value+='6'">
+            <input type="button" value="+" id="+" onclick="output1.value+='+'">
+            <input type="button" value="1" id="1" onclick="output1.value+='1'">
+            <input type="button" value="2" id="2" onclick="output1.value+='2'">
+            <input type="button" value="3" id="3"onclick="output1.value+='3'">
+            <input type="button" value="-" id="-" onclick="output1.value+='-'">
+            <input type="button" value="0" id="0"onclick="output1.value+='0'">
+            <input type="button" value="=" id="=" onclick="output1.value=eval(output1.value)">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
